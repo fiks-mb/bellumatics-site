@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Delete account — Bellumatics: Tower Defense</title><style>:root{color-scheme:light dark;--bg:#0b1220;--fg:#e8eef7;--mut:#9fb3c4;--acc:#6ee7ff;--card:#121b2c}@media (prefers-color-scheme:light){:root{--bg:#f6f8fb;--fg:#10182a;--mut:#4a5a70;--acc:#0a7ea4;--card:#fff}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.6rem;margin:.2em 0 .4em}h2{font-size:1.15rem;margin:1.6em 0 .4em}a{color:var(--acc)}nav{display:flex;gap:8px;margin:12px 0 20px}nav button{background:var(--card);color:var(--fg);border:1px solid #8884;border-radius:999px;padding:6px 14px;font:inherit;cursor:pointer}nav button[aria-pressed=true]{border-color:var(--acc);color:var(--acc)}
+section[hidden]{display:none}ul{padding-left:1.2em}li{margin:.3em 0}em{color:var(--mut)}code{background:var(--card);padding:1px 5px;border-radius:6px}</style></head><body><main>
+<nav><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="ru" aria-pressed="false">Русский</button><button type="button" data-lang="uk" aria-pressed="false">Українська</button></nav>
+<section id="lang-en" lang="en">
+<h1>Delete your account</h1>
+<p>Bellumatics: Tower Defense uses an optional account only for the online leaderboards: an anonymous Firebase ID, optionally linked to your Google account. You can delete it in the game at any time.</p>
+<h2>In the game</h2>
+<ol><li>Open <b>Zen → Leaderboards</b>.</li><li>Scroll to the bottom and tap <b>Delete account and table data</b>.</li><li>Confirm.</li></ol>
+<h2>What is deleted</h2>
+<ul><li>Your leaderboard rows (Zen all-time and the weekly tournaments), your profile (nickname, city name) and the account itself — anonymous or Google-linked.</li></ul>
+<h2>What stays</h2>
+<ul><li>Local game progress on your phone (it lives only on the device; uninstalling the game removes it).</li><li>Reports other players sent about names are kept without your account data for up to 90 days for moderation.</li></ul>
+<h2>Without the game</h2>
+<p>If you no longer have the game installed, e-mail <a href="mailto:support@your-domain">support@your-domain</a> with your nickname and city name; we delete the same data within 30 days.</p>
+<p><a href="privacy.html">Privacy policy</a></p></section>
+<section id="lang-ru" lang="ru" hidden>
+<h1>Удаление аккаунта</h1>
+<p>Bellumatics: Tower Defense использует необязательный аккаунт только для онлайн-таблиц: анонимный ID Firebase, при желании привязанный к аккаунту Google. Удалить его можно в игре в любой момент.</p>
+<h2>В игре</h2>
+<ol><li>Откройте <b>Дзен → Таблицы</b>.</li><li>Прокрутите вниз и нажмите <b>Удалить аккаунт и данные таблиц</b>.</li><li>Подтвердите.</li></ol>
+<h2>Что удаляется</h2>
+<ul><li>Ваши строки в таблицах (Дзен за всё время и недельные турниры), профиль (ник, название города) и сам аккаунт — анонимный или привязанный к Google.</li></ul>
+<h2>Что остаётся</h2>
+<ul><li>Локальный прогресс на телефоне (он хранится только на устройстве; удаление игры стирает его).</li><li>Жалобы других игроков на имена хранятся без данных вашего аккаунта до 90 дней для модерации.</li></ul>
+<h2>Без игры</h2>
+<p>Если игра уже удалена, напишите на <a href="mailto:support@your-domain">support@your-domain</a>, указав ник и название города; мы удалим те же данные в течение 30 дней.</p>
+<p><a href="privacy.html">Политика конфиденциальности</a></p></section>
+<section id="lang-uk" lang="uk" hidden>
+<h1>Видалення облікового запису</h1>
+<p>Bellumatics: Tower Defense використовує необов’язковий обліковий запис лише для онлайн-таблиць: анонімний ID Firebase, за бажанням прив’язаний до облікового запису Google. Видалити його можна в грі будь-коли.</p>
+<h2>У грі</h2>
+<ol><li>Відкрийте <b>Дзен → Таблиці</b>.</li><li>Прокрутіть униз і натисніть <b>Видалити обліковий запис і дані таблиць</b>.</li><li>Підтвердьте.</li></ol>
+<h2>Що видаляється</h2>
+<ul><li>Ваші рядки в таблицях (Дзен за весь час і тижневі турніри), профіль (нік, назва міста) і сам обліковий запис — анонімний або прив’язаний до Google.</li></ul>
+<h2>Що лишається</h2>
+<ul><li>Локальний прогрес на телефоні (він зберігається лише на пристрої; видалення гри стирає його).</li><li>Скарги інших гравців на імена зберігаються без даних вашого облікового запису до 90 днів для модерації.</li></ul>
+<h2>Без гри</h2>
+<p>Якщо гру вже видалено, напишіть на <a href="mailto:support@your-domain">support@your-domain</a>, вказавши нік і назву міста; ми видалимо ті самі дані протягом 30 днів.</p>
+<p><a href="privacy.html">Політика конфіденційності</a></p></section>
+<script>const b=[...document.querySelectorAll('nav button')],s=id=>{b.forEach(x=>x.setAttribute('aria-pressed',x.dataset.lang===id));document.querySelectorAll('main>section').forEach(x=>x.hidden=x.id!=='lang-'+id)};b.forEach(x=>x.onclick=()=>s(x.dataset.lang));const n=(navigator.language||'en').slice(0,2);if(['ru','uk'].includes(n))s(n);</script>
+</main></body></html>
